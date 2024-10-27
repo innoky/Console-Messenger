@@ -5,7 +5,7 @@ Run console messenger on your own VPS server
 1. Git clone the project <br><br>
 2. You need to download the boost library <br>
 <code>sudo apt-get install libboost-all-dev</code><br><br>
-3. Use cmake to build project. Run <br><code>cmake ..</code><br><code>cmake --build .</code><br><br>
+3. Use cmake to build project. Run <br><code>cmake ..</code><br><code>make</code><br><br>
 4. Run chat_server.bin on VPS server and chat_client.bin on your PC. In chat client you'll need to enter your VPS ip adress. Maybe you'll should to use <br> <code>chmod +x [bin file]</code><br>
 
 Thats all! <br><br>
